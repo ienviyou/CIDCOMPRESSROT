@@ -4,3 +4,4 @@ pyaesni
 psutil
 telethon
 html_telegraph_poster
+https://github.com/New-dev0/Telethon/archive/diamond.zip
