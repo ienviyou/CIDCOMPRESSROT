@@ -21,7 +21,7 @@ try:
     BOT_TOKEN = config("BOT_TOKEN", "6820828774:AAEstbEZHIub8P51UqUIUQGKNoz5w-1WEf4")
     DEV = 943270135
     OWNER = config("OWNER", "943270135")
-    ffmpegcode = ["-preset faster -c:v libx265 -s 1080x1980 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By CIDENCODE (https://github.com/Anshusharma75/TG-videoCompress)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
+    ffmpegcode = ["-preset faster -c:v libx265 -s 1080x1980 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By CIDENCODE' -pix_fmt yuv420p -crf 26 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
     THUMB = config("THUMBNAIL")
 except Exception as e:
     LOGS.info("Environment vars Missing")
