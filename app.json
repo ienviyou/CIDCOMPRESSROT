@@ -3,7 +3,7 @@
     "description": "A telegram video encoder.",
     "logo": "https://graph.org/file/1cc8d7082dc910c0ccee8.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/Anshusharma75/TG-videoCompress",
+    "repository": "https://github.com/2204852/CIDCOMPRESSROT",
     "success_url": "",
     "stack": "container",
     "env": {
